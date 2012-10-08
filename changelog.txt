@@ -1,0 +1,14 @@
+*** Herman Changelog ***
+
+
+2012.09.17 - Version 1.0
+
+  * Initial release
+
+2012.09.19 - version 1.0.1
+
+  * fixed typo in functions.php relating to Google font loading
+
+2012.09.21 - version 1.0.2
+  * tweaked .sidebar padding
+  * added to #inner margin
