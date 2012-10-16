@@ -84,13 +84,18 @@ The Herman child theme comes with the following:
 The custom content boxes make use of DIV classes. For example, &lt;div class="content-box-blue"&gt;some random text&lt;/div&gt;
 There are 6 styles to choose from.
 
-<strong>PULLQUOTES</strong>
-The pullquotes are added as a class to the existing blockquote which makes for ease of use. There are 2 available pullquotes, right-aligned and left-aligned.
+<strong>Pullquotes</strong>
+Pullquotes are added to posts or pages by assigning a div class to the text you want to quote. Their are 2 options you can use, left-aligned and right-aligned.
+
 For example, to use a left-aligned pullquote do this ...
-&lt;blockquote class="pullquote-left"&gt;This is a left-aligned pullquote.&lt;/blockquote&gt;
+&lt;div class="pullquote-left"&gt;This is a left-aligned pullquote.&lt;/div&gt;
 
 and to use a right-aligned pullquote do this ...
-&lt;blockquote class="pullquote-right"&gt;This is a right-aligned pullquote.&lt;/blockquote&gt;
+&lt;div class="pullquote-right"&gt;This is a right-aligned pullquote.&lt;/div&gt;
+
+In previous versions of this theme I added the pullquotes as a class to the blockquote but have now changed that for a couple of reasons:
+1. This method avoids any potential conflicts with blockquotes.
+2. The CSS is cleaner. At least I think so.
 
 <strong>GENESIS BOX</strong>
 The Genesis Box is disabled by default. To enable it, open Herman's <code>functions.php</code> file and uncomment the function. Specifically, look for this ...

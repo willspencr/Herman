@@ -12,3 +12,6 @@
 2012.09.21 - version 1.0.2
   * tweaked .sidebar padding
   * added to #inner margin
+
+2012.10.15 - version 1.0.3
+  * added separate class for pullquotes and adjusted styling

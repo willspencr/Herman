@@ -5,7 +5,7 @@
 	Author: WPCanada
 	Author URI: http://wpcanada.ca
 
-	Version: 1.0.2
+	Version: 1.0.3
 	
 	Tags: black, custom-background, custom-header, custom-menu, featured-images, fixed-width, gray, left-sidebar, one-column, right-sidebar, sticky-post, theme-options, threaded-comments, three-columns, translation-ready, two-columns, white
 	
@@ -752,40 +752,26 @@ p.subscribe-to-comments {
 
 .pullquote-left,
 .pullquote-right {
-	-moz-border-radius: 0;
-	-webkit-border-radius: 0;
-	background-color: transparent !important;
-	border-bottom: 2px solid #a81d1d;
-	border-left: none;
-	border-radius: 0;
-	border-right: none;
-	border-top: 2px solid #a81d1d;
+	border-bottom: double #a81d1d;
+	border-top: double #a81d1d;
 	clear: both;
 	color: #777;
 	font-size: 20px;
 	font-style: italic;
-	line-height: 28px;
-	margin-top: 10px !important;
-	padding:  25px 15px 15px !important;
-	width: 33%;
+	line-height: 1.4;
+	padding: 7px 0;
+	text-align: center;
+	width: 35%;
 }
 
 .pullquote-left {
-	display: inline;
 	float: left;
+	margin: 15px 15px 15px 0;
 }
 
 .pullquote-right {
-	display: inline;
 	float: right;
-}
-
-.pullquote-left p,
-.pullquote-right p {
-	color: #777;
-	font-size: 20px;
-	line-height: 28px !important;
-	text-indent: 0em !important;
+	margin: 15px 0 15px 15px;
 }
 
 
