@@ -5,7 +5,7 @@
 	Author: WPCanada
 	Author URI: http://wpcanada.ca
 
-	Version: 1.0.4
+	Version: 1.1.0
 	
 	Tags: black, custom-background, custom-header, custom-menu, featured-images, fixed-width, gray, left-sidebar, one-column, right-sidebar, sticky-post, theme-options, threaded-comments, three-columns, translation-ready, two-columns, white
 	
@@ -49,6 +49,7 @@
 * Images
 * Post Navigation
 * Single Post Navigation
+* Page Links Navigation
 * Primary / Secondary Sidebars
 * Dropdowns
 * Featured Page / Post
@@ -1306,6 +1307,34 @@ p.wp-caption-text {
 	float: right;
 	text-align: right;
 	width: 50%;
+}
+
+
+/* Page Links Navigation
+------------------------------------------------------------ */
+
+p.pages {
+	clear: both;
+	display: block;
+	margin: 20px 0;
+}
+
+p.pages a,
+p.pages a:active,
+p.pages a:hover {
+	border: 1px solid #ddd;
+	margin: 0;
+	padding: 2px 3px;
+	text-decoration: none;
+}
+
+p.pages a:active,
+p.pages a:hover {
+	background-color: #f5f5f5;
+}
+
+p.pages span {
+	margin-right: 6px;
 }
 
 
