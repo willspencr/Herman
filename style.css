@@ -5,7 +5,7 @@
 	Author: WPCanada
 	Author URI: http://wpcanada.ca
 
-	Version: 1.1.0
+	Version: 1.1.1
 	
 	Tags: black, custom-background, custom-header, custom-menu, featured-images, fixed-width, gray, left-sidebar, one-column, right-sidebar, sticky-post, theme-options, threaded-comments, three-columns, translation-ready, two-columns, white
 	
@@ -2357,11 +2357,6 @@ html > body.herman .slide-excerpt-border {
 	#nav li a,
 	#subnav li a {
 		padding: 7px 10px 6px;
-	}
-
-	#subnav {
-		background: none;
-		border: none;
 	}
 
 	#nav .wrap,
