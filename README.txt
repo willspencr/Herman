@@ -113,6 +113,7 @@ The Genesis Box is disabled by default. To enable it, open Herman's <code>functi
 Genesis Responsive Slider - <a href="http://wordpress.org/extend/plugins/genesis-responsive-slider/">http://wordpress.org/extend/plugins/genesis-responsive-slider/</a>
 Simple Social Icons - <a href="http://wordpress.org/extend/plugins/simple-social-icons/">http://wordpress.org/extend/plugins/simple-social-icons</a>
 Regenerate Thumbnails - <a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/">http://wordpress.org/extend/plugins/regenerate-thumbnails/</a>
+Genesis eNews Extended - <a href="http://wordpress.org/extend/plugins/genesis-enews-extended/">http://wordpress.org/extend/plugins/genesis-enews-extended/</a>
 
 <strong>CREDIT</strong>
 1. Post Format icons courtesy StudioPress &ndash; http://www.studiopress.com/graphics/post-format-icons

@@ -5,12 +5,12 @@
 	Author: WPCanada
 	Author URI: http://wpcanada.ca
 
-	Version: 1.1.1
+	Version: 1.2.0
 	
 	Tags: black, custom-background, custom-header, custom-menu, featured-images, fixed-width, gray, left-sidebar, one-column, right-sidebar, sticky-post, theme-options, threaded-comments, three-columns, translation-ready, two-columns, white
 	
 	Template: genesis
-	Template Version: 1.8.2
+	Template Version: 1.9
 
 	License: GNU General Public License v2.0
 	License URI: http://www.opensource.org/licenses/gpl-license.php
@@ -1763,15 +1763,17 @@ input:hover[type="submit"],
 	background: url(images/enews.png) no-repeat top right;
 }
 
-.enews #subbox {
+.enews #subbox,
+.enews #subbox1,
+.enews #subbox2 {
 	background-color: #fff;
 	color: #999;
 	font-family: 'Lato', sans-serif;
 	font-size: 12px;
-	margin: 5px -1px 0 0;
+	margin: 0 0 15px;
 	padding: 10px;
 	text-transform: uppercase;
-	width: 180px;
+	width: 80%;
 }
 
 #sidebar .enews {
@@ -1791,7 +1793,9 @@ input:hover[type="submit"],
 	text-shadow: 1px 1px #fff;
 }
 
-#sidebar .enews #subbox {
+#sidebar .enews #subbox,
+#sidebar .enews #subbox1,
+#sidebar .enews #subbox2 {
 	background-color: #fff;
 	border-left: 1px solid #bbb;
 	border-top: 1px solid #bbb;
@@ -1801,7 +1805,12 @@ input:hover[type="submit"],
 	margin: 0 10px 15px;
 	padding: 10px;
 	text-transform: uppercase;
-	width: 195px;
+	width: 80%;
+}
+
+#footer-widgets .enews input[type="button"],
+#footer-widgets .enews input[type="submit"] {
+	display:none;
 }
 
 
@@ -2251,6 +2260,14 @@ html > body.herman .slide-excerpt-border {
 	.welcome-inner {
 		text-align: center;
 		width: 96%;
+	}
+
+	.enews #subbox,
+	.enews #subbox1,
+	.enews #subbox2 {
+		background: #fff;
+		display:block;
+		padding: 15px 0 13px 10px;
 	}
 
 	#footer .creds,
